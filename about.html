@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This is the draft of my first portfolio"
+    />
+    <!-- this meta helps search engines to describe our web page precisly (as we wanted it to be) -->
+    <meta name="author" content="Rahel" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="My portfolio" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script>
+      function openSideNav() {
+        const sidenav = document.querySelector(".sidenav");
+        sidenav.style.display = "flex";
+      }
+      function closeSideNav() {
+        const sidenav = document.querySelector(".sidenav");
+        sidenav.style.display = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <ul class="sidenav">
+          <li onclick="closeSideNav()">
+            <a href="#"><i class="bx bx-x"></i></a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="work.html">Experience</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li class="hiddenMenu"><a href="index.html">Home</a></li>
+          <li class="hiddenMenu"><a href="about.html">About me</a></li>
+          <li class="hiddenMenu"><a href="work.html">Experience</a></li>
+          <li class="hiddenMenu"><a href="contacts.html">Contact</a></li>
+          <li onclick="openSideNav()">
+            <a href="#"><i class="bx bx-menu"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <h1><i>Header</i></h1>
+          <input  type="search" placeholder="search" />
+        </div>
+      </header>
+      <div class="line"></div>
+      <section>
+        <div class="block block--first">
+          <h2 class="block__heading">There is no bad weather</h2>
+          <p class="block block__par">Where I live its now <strong>12 &deg;</strong> and I remembered this quote 
+            <blockquote>&quot; Sunshine is delicious, rain is refreshing, wind braces us up, snow is exhilarating; 
+              there is really no such thing as bad weather, 
+              only different kinds of good weather.&quot;</blockquote>  — <em>John Ruskin</em>
+          </p>
+          </p>
+        </div>
+        <div class="line"></div>
+        <table>
+
+        </table>
+          
+        
+
+        <!-- <div class="river">
+          <img
+            src="images/pexels-adrien-olichon-1257089-18332437.jpg"
+            alt="picture of a green mountainous place with a blueish river in between"
+          />
+        </div> -->
+      </section>
+      <br />
+      <div class="line"></div>
+      <footer class="footer">
+        <p>Copyright &copy; 2024 Project @ Hamburg coding school by Rahel</p>
+      </footer>
+    </div>
+  </body>
+</html>
