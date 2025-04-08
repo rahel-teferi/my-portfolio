@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+
+
+}
+
+.container div {
+    /* width: 500px; */
+    object-position: center;
+    object-fit: contain;
+}
+
+.container div img {
+    max-width: 300px;
+    min-height: 300px;
+}
+
+.caroselBtn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.returnLink {
+    justify-content: center;
+    gap: "20px";
+}
