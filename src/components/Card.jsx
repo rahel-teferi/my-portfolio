@@ -22,7 +22,7 @@ export const Card = ({ data }) => {
             style={{
               width: "100%",
               objectFit: "fill",
-              maxHeight: "250px",
+              height: "230px",
             }}
             src={data.img}
             alt="logo for the project"

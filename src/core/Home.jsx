@@ -87,9 +87,9 @@ export const Home = () => {
           style={{
             display: "flex",
             justifyContent: "center",
-            width: "80vw",
-            gap: "50px",
+            gap: "5%",
             margin: "auto",
+            flexWrap: "wrap",
           }}
         >
           <Card
@@ -196,15 +196,23 @@ export const Home = () => {
       </h3>
       <div
         style={{
-          margin: "2rem",
           textAlign: "center",
           backgroundColor: "white",
           padding: "1rem",
           borderRadius: "0.5rem",
           boxShadow: "0 1px 3px rgba(0,0,0,0.1)",
+
+          maxWidth: "72rem",
+          margin: "0 auto",
         }}
       >
-        <img src="https://skillicons.dev/icons?i=js,html,css,nodejs,expressjs,bootstrap,mui,github,postgresql,mysql,react," />
+        <img
+          style={{
+            maxWidth: "100%",
+            objectFit: "fill",
+          }}
+          src="https://skillicons.dev/icons?i=js,html,css,nodejs,expressjs,bootstrap,mui,github,postgresql,mysql,react,"
+        />
       </div>
       <Contact />
     </div>
